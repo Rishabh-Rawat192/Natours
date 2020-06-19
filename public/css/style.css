@@ -1324,7 +1324,7 @@ body {
     transform: translateY(-2px);
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
     .card-container {
         max-width: 60rem;
         margin: 0 auto;
@@ -1333,11 +1333,11 @@ body {
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .card-container {
         max-width: 40rem;
         margin: 0 auto;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 7rem;
+        grid-gap: 3rem;
     }
 }
