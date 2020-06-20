@@ -55,7 +55,7 @@ block content
                                 span.overview-box__label Lead guide
                             -if(guide.role==="guide")
                                 span.overview-box__label Tour guide
-                            span.overview-box__text Steven Miller
+                            span.overview-box__text= `${guide.name}`
 
         .description-box
             h2.heading-secondary.ma-bt-lg=`About ${tour.name} tour`
